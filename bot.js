@@ -33,6 +33,12 @@ client.on('message', message => {
       if (message.content === 'mcking') {
     	message.reply('Beszélsz még mckingel? :thinking:')
         }
+      if (message.content === 'clán') {
+    	message.reply('https://steamcommunity.com/groups/MPcsirkek')
+        }
+     if (message.content === 'made') {
+    	message.reply('Engem Limited a mester készített el. <3')
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
