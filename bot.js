@@ -39,6 +39,9 @@ client.on('message', message => {
      if (message.content === 'made') {
     	message.reply('Engem Limited a mester készített el. <3')
         }
+     if (message.content === 'invite') {
+    	message.reply('Hívj meg a szerveredre!https://discordapp.com/oauth2/authorize?client_id=436954986375544843&scope=bot&permissions=0')
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
