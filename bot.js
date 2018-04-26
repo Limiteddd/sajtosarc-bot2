@@ -27,6 +27,9 @@ client.on('message', message => {
       if (message.content === 'helló') {
     	message.reply('Csá.')
         }
+    if (message.content === 'pentium') {
+    	message.reply(':angry:')
+        }
     
 });
 
