@@ -28,7 +28,7 @@ client.on('message', message => {
     	message.reply('Csá.')
         }
     if (message.content === 'pentium') {
-    	message.reply(':angry:')
+    	message.reply('de ez nem mém :angry:')
         }
     
 });
