@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'torrent') {
-    	message.reply('Úristen,komolyan torrentezel?Mennyire csicska vagy inkább vedd meg bazdmeg.');
+    if (message.content === 'mérges') {
+    	message.reply('Mérges?');
   	}
 });
 
