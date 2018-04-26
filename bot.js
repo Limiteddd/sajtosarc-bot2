@@ -9,6 +9,9 @@ client.on('message', message => {
     if (message.content === 'mérges') {
     	message.reply('Mérges?')
   	}
+    if (message.content === 'autista') {
+    	message.reply('Autista?')
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
