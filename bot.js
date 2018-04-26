@@ -6,12 +6,31 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'mérges') {
-    	message.reply('Mérges?')
+    if (message.content === 'torrent') {
+    	message.reply('Úristen kalózkodós poor kid vagy,vedd meg inkább a játékot ne töltsd le torrentel!')
   	}
-    if (message.content === 'autista') {
-    	message.reply('Autista?')
+    if (message.content === 'csaló') {
+    	message.reply('Nyomorék csaló elrontod mások játékélményét!')
         }
+    if (message.content === 'windows') {
+    	message.reply('Majd én tudom milyen windows-t használok jó?')
+        }
+     if (message.content === 'macfag') {
+    	message.reply('azért mert szeretem a macet?')
+        }
+      if (message.content === 'keh') {
+    	message.reply('kehünk bele')
+        }
+     if (message.content === 'béke') {
+    	message.reply('nem.')
+        }
+      if (message.content === 'béke') {
+    	message.reply('nem.')
+        }
+      if (message.content === 'helló') {
+    	message.reply('Csá.')
+        }
+    
 });
 
 // THIS  MUST  BE  THIS  WAY
