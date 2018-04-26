@@ -24,9 +24,6 @@ client.on('message', message => {
      if (message.content === 'béke') {
     	message.reply('nem.')
         }
-      if (message.content === 'béke') {
-    	message.reply('nem.')
-        }
       if (message.content === 'helló') {
     	message.reply('Csá.')
         }
