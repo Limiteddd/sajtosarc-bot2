@@ -7,9 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'mérges') {
-    	message.reply('Mérges?');
-         if (message.content === 'autista') {
-    	message.reply('Autista?');
+    	message.reply('Mérges?')
   	}
 });
 
