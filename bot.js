@@ -30,7 +30,9 @@ client.on('message', message => {
     if (message.content === 'pentium') {
     	message.reply('de ez nem mém :angry:')
         }
-    
+      if (message.content === 'mcking') {
+    	message.reply('Beszélsz még mckingel? :thinking:')
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
